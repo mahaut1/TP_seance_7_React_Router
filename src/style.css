@@ -1,0 +1,58 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #17342f;
+  background: #f5f7f6;
+}
+body {
+  margin: 0;
+}
+.application {
+  max-width: 650px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px #00000010;
+}
+h1 {
+  margin-top: 0;
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.ligne-formulaire {
+  display: flex;
+  gap: 0.6rem;
+}
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.75rem;
+  border: 1px solid #bacbc6;
+  border-radius: 7px;
+  font: inherit;
+}
+button {
+  padding: 0.75rem 1rem;
+  background: #116b59;
+  color: white;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  font: inherit;
+}
+.erreur {
+  color: #b42318;
+}
+.liste-taches {
+  padding-left: 1.5rem;
+  line-height: 2.2;
+}
+@media (max-width: 600px) {
+  .application {
+    margin: 1rem;
+    padding: 1.25rem;
+  }
+}
